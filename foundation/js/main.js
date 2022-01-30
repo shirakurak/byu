@@ -4,7 +4,12 @@
   var vm = new Vue({
     el: '#app',
     data: {
-      name: 'taguchi'
+      name : 'shirakura', 
+      names: [
+        'name 1',
+        'name 2',
+        'name 3'
+      ]
     }
   });
 })();
