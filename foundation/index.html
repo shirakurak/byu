@@ -18,8 +18,8 @@
     <ul>
       <li v-for="n in names">{{ n }}</li>
     </ul>
-    <form>
-      <input type="text">
+    <form @submit.prevent="addName">
+      <input type="text" v-model="newName">
       <input type="submit" value="Add">
     </form>
 
